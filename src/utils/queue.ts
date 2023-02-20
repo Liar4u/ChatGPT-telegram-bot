@@ -7,7 +7,7 @@ import { SendMessageOptions } from 'chatgpt';
 
 const queue = fastq.promise(worker, 1);
 
-const reply_footer = '\n\nЗадонатити: /donate';
+const reply_footer = '\n\n😉 /donate';
 
 async function worker(task: Task) {
   const { text, chatId, replyId } = task;
